@@ -1,0 +1,118 @@
+body {
+    background-image: url(https://ts2.space/wp-content/uploads/2023/05/mfrack_realistic_photo_of_AI_technologies_and_man_award_winning_ea3fb89d-64d4-46a2-9c54-8a966eddaf9a.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333; /* Set default text color */
+  }
+  
+  #container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  #input,
+  #output {
+    width: 45%;
+    margin: 5% 2.5%;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: rgba(38, 57, 77, 0.2) 0px 20px 30px -10px;
+    border-radius: 8px;
+  }
+  
+  #input-text {
+    width: 100%;
+    height: 80%;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    padding: 10px;
+    font-weight: 600;
+  }
+  
+  #output_values {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+    padding: 20px;
+    background-color: rgba(245, 243, 241, 0.9);
+    border-radius: 8px;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #heading {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-style: italic;
+    color: #fff; /* Set heading text color to white */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for visibility */
+  }
+  
+  #btntoclick {
+    height: 30px;
+    width: 120px;
+    border-radius: 6px;
+    background-color: brown;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.6px;
+  }
+  
+  
+  #select {
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  select {
+    flex: 1;
+    margin: 0 5px;
+    border-radius: 6px;
+    padding: 4px;
+    font-size: 14px;
+    background-color: rgb(108, 245, 245);
+    font-weight: 600;
+    color: rgb(29, 2, 2);
+    cursor: pointer;
+  }
+
+
+#developer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #fff; /* Set text color to white */
+  }
+  
+ 
+  
+  
+  select:hover {
+    background-color: rgb(2, 71, 71);
+    color: azure;
+  }
+  
+  #A {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff; /* Set text color to white */
+  }
+  
